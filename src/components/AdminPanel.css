@@ -1,0 +1,72 @@
+.admin-panel {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile-form input, .profile-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .profile-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .profile-list .profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-list .profile-info {
+    flex-grow: 1;
+  }
+  
+  .profile-list button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .profile-list button:hover {
+    background-color: #c82333;
+  }
+  
